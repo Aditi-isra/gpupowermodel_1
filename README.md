@@ -57,12 +57,12 @@ git clone https://github.com/nsfcac/gpupowermodel.git
 #### GPU Control parameters
 * edit control script and enable/disable different control functions (e.g. power limit, frequency)
 ```
-vi gpupower/utility/control
+vi gpupowermodel/utility/control
 ```
 #### GPU Profile Parameters
 * edit profile script and change profile parameters (e.g. nvidia-smi sampling rate, adding/removing GPU metrics)
 ```
-vi gpupower/utility/profile
+vi gpupowermodel/utility/profile
 ```
 
 ### Data Generation
