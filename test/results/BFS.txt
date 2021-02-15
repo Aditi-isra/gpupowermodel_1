@@ -1,0 +1,26 @@
+Chose device: name='Tesla V100-PCIE-32GB' index=0
+Vertices: 1000
+Edges: 999
+Running Benchmark
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+BFS	v:1000_e:1998	GB/s	0.11526	0.113724	0.00449795	0.100761	0.116603	0.100761	0.114861	0.116575	0.116575	0.116603	0.115739	0.113222	0.113196	0.115658	0.114049	
+BFS_PCIe	v:1000_e:1998	GB/s	0.0891767	0.0882234	0.0028245	0.0800697	0.0900351	0.0800697	0.0888983	0.0899541	0.0900351	0.0900351	0.0894871	0.0879907	0.0879288	0.0894551	0.0883796	
+BFS_Parity	v:1000_e:1998	N	0.292485	0.288709	0.010519	0.258416	0.295942	0.258416	0.29205	0.295942	0.294776	0.295078	0.293355	0.28675	0.287364	0.29292	0.29044	
+BFS_kernel_time	v:1000_e:1998	s	0.000138784	0.000140899	6.14034e-06	0.000137184	0.000158752	0.000158752	0.000139264	0.000137216	0.000137216	0.000137184	0.000138208	0.00014128	0.000141312	0.000138304	0.000140256	
+BFS_teps	v:1000_e:1998	Edges/s	3.10009e+06	3.08149e+06	68572.3	2.8771e+06	3.12142e+06	2.8771e+06	3.09864e+06	3.09698e+06	3.1018e+06	3.10709e+06	3.12142e+06	3.09664e+06	3.09934e+06	3.11506e+06	3.10084e+06	
+BFS_total	v:1000_e:1998	s	0.000322249	0.000324364	7.66242e-06	0.000320047	0.000347225	0.000347225	0.0003224	0.000322572	0.000322071	0.000321523	0.000320047	0.000322608	0.000322327	0.0003207	0.000322171	
+BFS_visited_vertices	v:1000_e:1998	N	1000	1000	0	1000	1000	1000	1000	1000	1000	1000	1000	1000	1000	1000	1000	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.
