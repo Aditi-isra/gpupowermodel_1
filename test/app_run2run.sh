@@ -15,8 +15,8 @@ declare -a progs=("FIRESTARTER_CUDA" "cuda-stream" "matrixMulCUBLAS") #executabl
 declare -a apps=("firestarter" "stream" "dgemm") #any name
 declare -a appParams=(" -t 300" " -s 655360000 -n 1500 > results/BSRUN_OUT" " 72 > results/DGEMMRUN_OUT") # ex
 '
-declare -a progs=("cuda-stream" "matrixMulCUBLAS") #executable name
-declare -a apps=("stream" "dgemm") #any name
+declare -a progs=("BFS") #executable name
+declare -a apps=("stream") #any name
 declare -a appParams=(" --device 1 -s 655360000 -n 1500 > results/BFS" ) # ex
 
 nRuns=$((numRuns-1))
