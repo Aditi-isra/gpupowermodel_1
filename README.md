@@ -67,7 +67,7 @@ vi gpupowermodel/utility/profile
 
 ### Data Generation
 ```
-cd gpupower/test
+cd gpupowermodel/test
 ```
 * GPU metrics data collection for run-to-run application
 ```
